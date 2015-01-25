@@ -10,6 +10,7 @@
 #import "DetailViewController.h"
 #import "Album.h"
 #import "AlbumDataController.h"
+#import "AlbumTableViewCell.h"
 
 @interface MasterViewController ()
 
@@ -37,13 +38,16 @@
 
 #pragma mark - Segues
 
-/*- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+	
+    if ([[segue identifier] isEqualToString:@"showAlbumDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-			NSDate *object = self.objects[indexPath.row];
-			[[segue destinationViewController] setDetailItem:object];
-    }
-}*/
+		Album * album = [self.albumDataController albumAtIndex:indexPath.row];
+		
+		[[segue destinationViewController] setDetailItem:album];
+	}
+	
+}
 
 #pragma mark - Table View
 
@@ -56,14 +60,19 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
+	
+	AlbumTableViewCell * cell =
+	[tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
+	
 	Album * album = [self.albumDataController albumAtIndex:indexPath.row];
-    cell.textLabel.text = album.title;
-    return cell;
+	cell.albumTitleLabel.text = album.title;
+	cell.albumSummaryLabel.text = album.summary;
+	cell.priceLabel.text = [NSString stringWithFormat:@"$%01.2f", album.price];
+	
+	return cell;
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
     return NO;
 }
 

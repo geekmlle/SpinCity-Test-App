@@ -17,6 +17,8 @@
 		BB3C60971A749AB1007C8709 /* Ch3_SpinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C60961A749AB1007C8709 /* Ch3_SpinCityTests.m */; };
 		BB3C60A71A749D20007C8709 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C60A61A749D20007C8709 /* Album.m */; };
 		BB3C60AA1A749F4B007C8709 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C60A91A749F4B007C8709 /* AlbumDataController.m */; };
+		BB3C60AD1A74AC0F007C8709 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C60AC1A74AC0F007C8709 /* AlbumTableViewCell.m */; };
+		BB3C60AF1A75BA25007C8709 /* AlbumArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3C60AE1A75BA25007C8709 /* AlbumArray.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		BB3C60A61A749D20007C8709 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		BB3C60A81A749F4B007C8709 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
 		BB3C60A91A749F4B007C8709 /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
+		BB3C60AB1A74AC0F007C8709 /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		BB3C60AC1A74AC0F007C8709 /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		BB3C60AE1A75BA25007C8709 /* AlbumArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlbumArray.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,8 @@
 				BB3C60A61A749D20007C8709 /* Album.m */,
 				BB3C60A81A749F4B007C8709 /* AlbumDataController.h */,
 				BB3C60A91A749F4B007C8709 /* AlbumDataController.m */,
+				BB3C60AB1A74AC0F007C8709 /* AlbumTableViewCell.h */,
+				BB3C60AC1A74AC0F007C8709 /* AlbumTableViewCell.m */,
 			);
 			path = "Ch3 SpinCity";
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 			children = (
 				BB3C60781A749AB1007C8709 /* Info.plist */,
 				BB3C60791A749AB1007C8709 /* main.m */,
+				BB3C60AE1A75BA25007C8709 /* AlbumArray.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -216,6 +224,7 @@
 			files = (
 				BB3C60861A749AB1007C8709 /* Main.storyboard in Resources */,
 				BB3C608B1A749AB1007C8709 /* LaunchScreen.xib in Resources */,
+				BB3C60AF1A75BA25007C8709 /* AlbumArray.plist in Resources */,
 				BB3C60881A749AB1007C8709 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +247,7 @@
 				BB3C60AA1A749F4B007C8709 /* AlbumDataController.m in Sources */,
 				BB3C60801A749AB1007C8709 /* MasterViewController.m in Sources */,
 				BB3C607A1A749AB1007C8709 /* main.m in Sources */,
+				BB3C60AD1A74AC0F007C8709 /* AlbumTableViewCell.m in Sources */,
 				BB3C60A71A749D20007C8709 /* Album.m in Sources */,
 				BB3C60831A749AB1007C8709 /* DetailViewController.m in Sources */,
 			);
