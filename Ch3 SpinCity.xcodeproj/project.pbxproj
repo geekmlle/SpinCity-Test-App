@@ -15,6 +15,8 @@
 		BB3C60881A749AB1007C8709 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3C60871A749AB1007C8709 /* Images.xcassets */; };
 		BB3C608B1A749AB1007C8709 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3C60891A749AB1007C8709 /* LaunchScreen.xib */; };
 		BB3C60971A749AB1007C8709 /* Ch3_SpinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C60961A749AB1007C8709 /* Ch3_SpinCityTests.m */; };
+		BB3C60A71A749D20007C8709 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C60A61A749D20007C8709 /* Album.m */; };
+		BB3C60AA1A749F4B007C8709 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C60A91A749F4B007C8709 /* AlbumDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		BB3C60901A749AB1007C8709 /* Ch3 SpinCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ch3 SpinCityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3C60951A749AB1007C8709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB3C60961A749AB1007C8709 /* Ch3_SpinCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch3_SpinCityTests.m; sourceTree = "<group>"; };
+		BB3C60A51A749D20007C8709 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		BB3C60A61A749D20007C8709 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		BB3C60A81A749F4B007C8709 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
+		BB3C60A91A749F4B007C8709 /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,10 @@
 				BB3C60871A749AB1007C8709 /* Images.xcassets */,
 				BB3C60891A749AB1007C8709 /* LaunchScreen.xib */,
 				BB3C60771A749AB1007C8709 /* Supporting Files */,
+				BB3C60A51A749D20007C8709 /* Album.h */,
+				BB3C60A61A749D20007C8709 /* Album.m */,
+				BB3C60A81A749F4B007C8709 /* AlbumDataController.h */,
+				BB3C60A91A749F4B007C8709 /* AlbumDataController.m */,
 			);
 			path = "Ch3 SpinCity";
 			sourceTree = "<group>";
@@ -225,8 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3C607D1A749AB1007C8709 /* AppDelegate.m in Sources */,
+				BB3C60AA1A749F4B007C8709 /* AlbumDataController.m in Sources */,
 				BB3C60801A749AB1007C8709 /* MasterViewController.m in Sources */,
 				BB3C607A1A749AB1007C8709 /* main.m in Sources */,
+				BB3C60A71A749D20007C8709 /* Album.m in Sources */,
 				BB3C60831A749AB1007C8709 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
