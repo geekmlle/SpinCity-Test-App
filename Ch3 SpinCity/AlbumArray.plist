@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<array>
+	<dict>
+		<key>title</key>
+		<string>Infected Splinter</string>
+		<key>artist</key>
+		<string>Boppin&apos; Beavers</string>
+		<key>price</key>
+		<real>9.99</real>
+		<key>locationInStore</key>
+		<string>Section F</string>
+		<key>summary</key>
+		<string>Awesome album with hint of Oak</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hairy Eyeball</string>
+		<key>artist</key>
+		<string>Cyclops</string>
+		<key>price</key>
+		<real>14.99</real>
+		<key>locationInStore</key>
+		<string>Discount Rack</string>
+		<key>summary</key>
+		<string>A 20/20 retrospective on Classic Rock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Squish</string>
+		<key>artist</key>
+		<string>The Bugs</string>
+		<key>price</key>
+		<real>8.99</real>
+		<key>locationInStore</key>
+		<string>Section A</string>
+		<key>summary</key>
+		<string>Not your average fly by night band</string>
+	</dict>
+</array>
 </plist>
